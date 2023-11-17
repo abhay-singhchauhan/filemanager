@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <img src="../images/loading_files/giphy.gif" alt="" />
+    </div>
+    <div id="heading"></div>
+    <div id="datainside"></div>
+    <button id="createFolder">Create Folder</button>
+    <form action="sumbit" id="folder" style="display: none">
+      <input type="text" id="folderInp" />
+      <button type="submit">Submit</button>
+    </form>
+    <button id="uploadFile">Upload file</button>
+    <form action="sumbit" id="file" style="display: none">
+      <input type="file" id="fileInp" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+  <script src="./home.js"></script>
+</html>
